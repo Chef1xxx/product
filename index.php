@@ -2,7 +2,10 @@
 <?php require_once("utils/functions.php") ?>
 <?php require_once("templates/header.php") ?>
 <?php 
-
+$conn = new mysqli("localhost", "root","","products");
+if ($conn->connect_error) {
+  echo "Ошибка подключения: " . $conn->connect_error;
+}
 ?> 
 
 <table class="table table-hover table-bordered" style="margin-top: 45px;">
@@ -28,4 +31,4 @@
       <td>Удалить</td>
     </tr>
 
-<?php require_once("templates/footer.php") ?>
+<?php require_once("templates/footer.php") ?> 
