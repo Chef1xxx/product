@@ -11,3 +11,11 @@
 </head>
 
 <body>
+  <nav>
+    <div>
+    <a class="btn" href="#">Добавить продукт</a>
+  </div>
+  <div>
+  <a class="btn" href="#">Редактировать продукт</a>
+  </div>
+  </nav>

@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    background: #c1c1c1;
+    justify-content: space-around;
+}
+nav div{
+    background: white;
+    margin:5px;
+    border-radius: 10px;
+}
